@@ -21,8 +21,8 @@ HINT: To identify which elements to scrape, you might want to inspect the page b
 3. Extract the titles and preview text of the news articles that you scraped. Store the scraping results in Python data structures as follows:
  - Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
 
-  ''' {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
-  'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."} '''
+  ``` {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
+  'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."} ```
 
   - Store all the dictionaries in a Python list.
   - Print the list in your notebook.
